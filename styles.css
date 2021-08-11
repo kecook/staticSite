@@ -11,6 +11,7 @@ body {
   margin-top: 30px;
   /* display: grid; */
   grid-template-columns: 30% auto;
+  color: pink;
 }
 .nav-wrapper ul li {
   display: inline;
