@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   padding: 15px 20px;
   margin-top: 30px;
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 30% auto;
 }
 .nav-wrapper ul li {
@@ -184,6 +184,7 @@ nav-items {
   .logo {
     grid-column: 1/3;
   }
+
   .nav-items {
     grid-column: 1/5;
     text-align: center;
@@ -226,10 +227,17 @@ nav-items {
     font-size: 30px;
   }
 
-  .mobile-show {
+  /* .mobile-show {
     display: block;
   }
   .mobile-hide {
     display: none;
+  } */
+
+  .nav-drop {
+    display: none;
+  }
+  .nav-drop.show {
+    display: block;
   }
 }
